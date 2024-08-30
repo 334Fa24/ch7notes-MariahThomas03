@@ -217,7 +217,8 @@ footer p a {
     
     .pic-text {
         font-size: 1em;
-        padding: 10px;      
+        padding: 10px;
+        
     }
       
     
@@ -286,6 +287,20 @@ footer p a {
     /* Desktop Viewport: Style Rules for main content */
     main {
         clear: left;
+    }
+    
+    .pic-text{
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    .frame{
+        opacity: 0.9;
+    }
+    
+    .frame:hover{
+        opacity: 1;
+        box-shadow: 8px 8px 10px #808080
     }
     
     main h1 {
